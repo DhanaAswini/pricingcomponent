@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 import * as React from "react";
 //import { Moon, Sun } from "lucide-react";
-import { ThemeProvider, useTheme } from "next-themes";
+import { ThemeProvider } from "next-themes";
 import Header from "@/components/header";
 //import { Button } from "@/components/ui/button";
 /*import {

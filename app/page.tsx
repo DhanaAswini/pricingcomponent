@@ -1,23 +1,25 @@
 "use client";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import * as React from "react";
-import { Moon, Sun } from "lucide-react";
+//import { Moon, Sun } from "lucide-react";
 import { ThemeProvider, useTheme } from "next-themes";
-import { Button } from "@/components/ui/button";
-import {
+import Header from "@/components/header";
+//import { Button } from "@/components/ui/button";
+/*import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from "@/components/ui/dropdown-menu";*/
 
 type PricingData = {
   views: string;
   price: number;
 };
 
-export function Header() {
+{
+  /*export function Header() {
   const { setTheme } = useTheme();
 
   return (
@@ -44,6 +46,7 @@ export function Header() {
       </DropdownMenu>
     </header>
   );
+}*/
 }
 
 export default function Home() {
